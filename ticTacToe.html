@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./ticTacToe.css">
+    <title>TTTGUI</title>
+</head>
+<body onload="startGame()">
+    <div id="message">message wil go here</div> 
+    <a id="button" href="javascript:startGame();">Start a new Game!</a>
+    <table>
+        <tr>
+            <td class="cell" id="s1" onclick="nextMove(this);"></td>
+            <td class="cell" id="s2" onclick="nextMove(this);"></td>
+            <td class="cell" id="s3" onclick="nextMove(this);"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="s4" onclick="nextMove(this);"></td>
+            <td class="cell" id="s5" onclick="nextMove(this);"></td>
+            <td class="cell" id="s6" onclick="nextMove(this);"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="s7" onclick="nextMove(this);"></td>
+            <td class="cell" id="s8" onclick="nextMove(this);"></td>
+            <td class="cell" id="s9" onclick="nextMove(this);"></td>
+        </tr>
+    </table>
+    <script src="./ticTacToe.js"></script>
+</body>
+</html>
